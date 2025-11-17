@@ -1,7 +1,32 @@
-.header {
-    background-color: azure;
+.wrapper {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1000px;
+}
+
+.banner {
     background-image: url(images/4-uwm-hero.jpg);
-    padding: 440px;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        padding-bottom: 425px;
+}
+
+ul {
+    margin: 0;
+}
+
+body > aside nav ul {
+    background-color:  rgb(255, 255, 255);
+        padding: 15px;
+}
+
+body > aside {
+    border-top: 5px solid rgb(204, 204, 204);
+    padding: 15px;
+
+}
+
+.colophon {
+    background-color: rgb(255, 234, 0);
+        padding: 15px;
 }
