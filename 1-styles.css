@@ -1,4 +1,17 @@
 html {
-    background-color: azure;
-    background-image: url(images/1-big-viburnum.jpg);
+    background-image: url(Images/1-big-viburnum.jpg);
+        background-color: rgb(151, 151, 151);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+
+}
+
+.wrapper {
+    background-color: rgba(240, 255, 255, 0.8);
+    border: 3px solid rgb(63, 139, 5);
+    max-width: 950px;
+    margin: 0px auto;
+    padding: 10px;
 }
